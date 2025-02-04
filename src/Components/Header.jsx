@@ -10,7 +10,7 @@ function Header() {
   };
   return (
     <div>
-      <div className="fixed w-full bg-gradient-to-r px-5 text-white  from-[#262743] to-[#121212]">
+      <div className=" w-full bg-gradient-to-r px-5 text-white  from-[#262743] to-[#121212]">
         <div className=" container py-5 flex justify-between items-center">
           <div  className=" flex items-center">
             <a href="" className="mr-15">

@@ -4,7 +4,7 @@ import comp from "../assets/compy.png"
 function Home() {
   return (
     <div className="">
-      <div className="bg-gradient-to-r pt-30 px-5 text-white  from-[#262743] to-[#121212]">
+      <div className="bg-gradient-to-r  px-5 text-white  from-[#262743] to-[#121212]">
         <div className="container flex justify-between pb-20 pt-10 flex-wrap items-center ">
           <div className="w-[50%]">
             <h2 className="font-bold text-3xl mb-5">
