@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+*{
+  transition: all 0.3s ease-in-out;
+}
+
+.active{
+  border-color: aqua;
+  color:aqua;
+}
