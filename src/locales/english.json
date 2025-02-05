@@ -1,0 +1,13 @@
+{
+  "header":{
+       "home": "Home",
+       "services": "Our services",
+       "work": "Our Work",
+       "prices": "Prices"
+  },
+  "home":{
+     "title":"Perfect 'IT' solutions to grow your business!",
+     "text":"Entrust your project to experts with more than 10 years of experience and achieve high success in a short time.",
+     "btn":"Contact"
+  }
+}

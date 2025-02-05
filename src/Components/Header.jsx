@@ -1,61 +1,91 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/limsa-logo.png";
 import { TiThMenu } from "react-icons/ti";
+import { useTranslation } from "react-i18next";
 
 function Header() {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
   };
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
+  // Handle scroll
+
+  const [scrolled, setIsScrolled] = useState(false)
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div>
-      <div className=" w-full bg-gradient-to-r px-5 text-white  from-[#262743] to-[#121212]">
+      <div
+        className={`${
+          scrolled ? " from-[#022007] to-[#03142d] shadow-2xl" : " from-[#262743] to-[#121212]"
+        } fixed w-full bg-gradient-to-r px-5 text-white `}
+      >
         <div className=" container py-5 flex justify-between items-center">
-          <div  className=" flex items-center">
+          <div className=" flex items-center">
             <a href="" className="mr-15">
               <img src={logo} alt="" className=" w-[120px]" />
             </a>
-            <nav className="flex gap-1 mr-5 max-[870px]:hidden text-white">
+            <nav className="flex gap-1 mr-5 max-[916px]:hidden text-white">
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/"
               >
-                Home
+                {t("header.home")}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/services"
               >
-                Services
+                {t("header.services")}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/works"
               >
-                Works
+                {t("header.work")}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/prices"
               >
-                Prices
+                {t("header.prices")}
               </NavLink>
             </nav>
             <select
               name=""
               id=""
+              onChange={(e) => changeLanguage(e?.target.value)}
               className=" text-xl border-none outline-none p-0 hover:bg-gray-600 py-1 rounded-md cursor-pointer appearance-none px-2 text-white"
             >
-              <option value="" className="text-black">
+              <option value="uz" className="text-black">
                 Uzb
               </option>
-              <option value="" className="text-black">
+              <option value="ru" className="text-black">
                 Rus
+              </option>
+              <option value="eng" className="text-black">
+                Eng
               </option>
             </select>
           </div>
@@ -76,28 +106,28 @@ function Header() {
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/"
             >
-              Home
+              {t("header.home")}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/services"
             >
-              Services
+              {t("header.services")}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/works"
             >
-              Works
+              {t("header.work")}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/prices"
             >
-              Prices
+              {t("header.prices")}
             </NavLink>
           </nav>
         ) : (
