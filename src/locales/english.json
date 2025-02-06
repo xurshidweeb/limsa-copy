@@ -1,13 +1,40 @@
 {
-  "header":{
-       "home": "Home",
-       "services": "Our services",
-       "work": "Our Work",
-       "prices": "Prices"
+  "header": {
+    "home": "Home",
+    "services": "Our services",
+    "work": "Our Work",
+    "prices": "Prices"
   },
-  "home":{
-     "title":"Perfect 'IT' solutions to grow your business!",
-     "text":"Entrust your project to experts with more than 10 years of experience and achieve high success in a short time.",
-     "btn":"Contact"
+
+  "home": {
+    "title": "Perfect 'IT' solutions to grow your business!",
+    "text": "Entrust your project to experts with more than 10 years of experience and achieve high success in a short time.",
+    "btn": "Contact"
+  },
+
+  "faq": {
+    "faqName": "Frequently Asked Questions",
+    "faqTitle1": "Why are the prices so cheap?",
+    "faqText1": "Our prices are really cheap compared to the quality. The reason is that we don't have excess labor in our web studio, so we don't have excess costs. That's why we keep our prices low compared to others.",
+    "faqTitle2": "Will I be able to edit the site myself in the future?",
+    "faqText2": "Yes, of course, you will be given access and instructions to the content management system (adminka). Adminka has a convenient interface, is intuitive and does not require specific knowledge.",
+    "faqTitle3": "Will you continue to support the site after it's finished?",
+    "faqText3": "Once we've finished your site, we'll keep it running for free, 24/7 for one year. After one year, it's $10/month."
+  },
+  "fast": {
+    "fast1": "DIGITAL SOLUTIONS",
+    "fast2": "AUTOMATION SYSTEMS",
+    "fast3": "MOBILE APPS",
+    "fast4": "WEBSITE BUILDING SERVICE"
+  },
+  "cards": {
+    "card1": "Ataev Bahadir Build - quality construction and repair services! Choose us, create the house of your dreams",
+    "card2": "AutoZoomRental - convenient and reliable car rental! Make your trip more pleasant with our cars.",
+    "card3": "IT Time Academy is the destination of modern IT knowledge! Take the professions of the future with us.",
+    "card4": "HomeKit – modern and convenient smart home solutions! Ensure the safety and comfort of your home with us.",
+    "card5": "UzLoyal is a reliable and convenient loyalty system! The most effective way to motivate your customers.",
+    "card6": "Namangan ITS is a center of modern IT knowledge and skills! Get new opportunities at every step.",
+    "card7": "ProPartnyor is the address of reliable and effective cooperation! We will work together for the success of your business.",
+    "card8": "ZamonTour – experience a happy tourist experience with us! Your trip with us is guaranteed to be more pleasant."
   }
 }

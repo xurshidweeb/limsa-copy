@@ -10,5 +10,33 @@
     "title": "Biznesingizni rivojlantirish uchun mukammal 'IT' yechimlar!",
     "text": "Loyihangizni 10 yildan ortiq tajribaga ega mutaxassislarga ishonib topshiring va qisqa vaqt ichida yuqori natijalarga erishing.",
     "btn": "Bog‘lanish"
-  }
+  },
+  "faq": {
+    "faqName": "Ko‘p so‘raladigan savollar",
+    "faqTitle1": "Nega narxlar bunchalik arzon?",
+    "faqText1": "Bizning narxlarimiz sifatga nisbatan juda arzon. Sababi, bizning veb-studiyamizda ortiqcha ishchi kuchi yo‘q, shu sababli ortiqcha xarajatlar ham yo‘q. Shu bois bizning narxlarimiz boshqalarga qaraganda pastroq.",
+    "faqTitle2": "Kelajakda saytni o‘zim tahrirlashim mumkinmi?",
+    "faqText2": "Ha, albatta. Sizga kontent boshqaruv tizimiga (admin panel) kirish va undan foydalanish bo‘yicha qo‘llanma taqdim etiladi. Admin panel qulay interfeysga ega, tushunarli va maxsus bilim talab qilmaydi.",
+    "faqTitle3": "Sayt tugallangandan keyin unga texnik xizmat ko‘rsatishni davom ettirasizmi?",
+    "faqText3": "Saytingizni yaratib bo‘lganimizdan so‘ng, uni bir yil davomida bepul 24/7 qo‘llab-quvvatlab turamiz. Bir yildan keyin esa xizmat narxi oyiga $10 bo‘ladi."
+  },
+  "fast": {
+    "fast1": "RAQAMLI YECHIMLAR",
+    "fast2": "AVTOMATIZATSIYA TIZIMLARI",
+    "fast3": "MOBIL ILOVALAR",
+    "fast4": "VEB-SAYT YARATISH XIZMATI"
+  },
+  
+    "cards": {
+      "card1": "Ataev Bahodir Build - sifatli qurilish va ta'mirlash xizmatlari! Bizni tanlang, orzuyingizdagi uyni yarating.",
+      "card2": "AutoZoomRental - qulay va ishonchli avtomobil ijarasi! Safaringizni bizning mashinalar bilan yanada yoqimli qiling.",
+      "card3": "IT Time Academy - zamonaviy IT bilimlar maskani! Kelajak kasblarini biz bilan o‘rganing.",
+      "card4": "HomeKit – zamonaviy va qulay aqlli uy echimlari! Uyingiz xavfsizligi va qulayligini biz bilan ta’minlang.",
+      "card5": "UzLoyal - ishonchli va qulay sodiqlik tizimi! Mijozlaringizni rag‘batlantirishning eng samarali usuli.",
+      "card6": "Namangan ITS - zamonaviy IT bilimlari va ko‘nikmalari markazi! Har qadamda yangi imkoniyatlarga ega bo‘ling.",
+      "card7": "ProPartnyor - ishonchli va samarali hamkorlik manzili! Biz biznesingiz muvaffaqiyati uchun birga ishlaymiz.",
+      "card8": "ZamonTour – biz bilan baxtli turistik tajribani his eting! Sayohatingiz biz bilan yanada yoqimli bo‘ladi."
+    }
+  
+  
 }

@@ -34,8 +34,8 @@ function Header() {
     <div>
       <div
         className={`${
-          scrolled ? " from-[#022007] to-[#03142d] shadow-2xl" : " from-[#262743] to-[#121212]"
-        } fixed w-full bg-gradient-to-r px-5 text-white `}
+          scrolled ? " from-[#131914] to-[#191e25] shadow-2xl" : " from-[#262743] to-[#121212]"
+        } fixed w-full bg-gradient-to-r px-5 text-white z-50 `}
       >
         <div className=" container py-5 flex justify-between items-center">
           <div className=" flex items-center">
@@ -48,6 +48,7 @@ function Header() {
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/"
               >
+                
                 {t("header.home")}
               </NavLink>
               <NavLink
