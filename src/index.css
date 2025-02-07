@@ -4,11 +4,14 @@
   max-width: 1300px;
   margin: 0 auto;
 }
-*{
+
+* {
   transition: all 0.3s ease-in-out;
 }
 
-.active{
+.active {
   border-color: aqua;
-  color:aqua;
+  color: aqua;
 }
+
+/* Tailwind yordamida background rasmlarni qo‘shish */

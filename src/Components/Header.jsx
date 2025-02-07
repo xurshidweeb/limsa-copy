@@ -92,7 +92,7 @@ function Header() {
           </div>
 
           <button className=" max-[500px]:hidden px-4 py-2 border-2 cursor-pointer border-[#6C2DBA] rounded-xl bg-[#6C2DBA] hover:bg-transparent text-white  ">
-            +998935138833
+            +998332221123
           </button>
           <TiThMenu
             onClick={toggleModal}

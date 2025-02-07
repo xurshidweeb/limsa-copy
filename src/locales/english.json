@@ -74,5 +74,39 @@
     "text2": "+998 (33) 258 73 58",
     "text3": "9:00 - 18:00 Monday-Saturday",
     "subtext": "© 2024 Limsa. All rights reserved."
-  }
+  },
+  "pri": {
+    "title":"Our affordable websites for you",
+    "page": {
+       "title": "LANDING PAGE",
+       "description": "Another name for a one-page site is a Landing Page. The page is easy to use and introduces the customer to the information they need.",
+          "text1": "Domain UZ",
+          "text2": "Protection 24/7",
+          "text3": "Duration 3 days",
+          "text4": "Number of pages 1",
+          "subtext1": "Negotiate",
+          "subtext2": "Place Order"
+    },
+    "card": {
+       "title": "SITE CARD",
+       "description": "It is the 'business card' of the company on the Internet. The site is to introduce the company's services or products to the people visiting the business page.",
+          "text1": "Domain UZ",
+          "text2": "Protection 24/7",
+          "text3": "Duration 3-7 days",
+          "text4": "Number of pages 2-4",
+          "subtext1": "Negotiate",
+          "subtext2": "Place Order"
+    },
+    "exc": {
+       "title": "Exclusive",
+       "description": "This website is created based on your order. You can order any website you want.",
+          "text1": "Domain UZ",
+          "text2": "Protection 24/7",
+          "text3": "Number of languages - Desired",
+          "text4": "High Design Level",
+          "subtext1": "Negotiate",
+          "subtext2": "Place Order"
+    }
+ }
+
 }

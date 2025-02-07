@@ -62,9 +62,21 @@ function Footer() {
                       {t("footer.subtitle4")}{" "}
                     </h3>
                     <div className=" flex gap-3 pt-5">
-                      <FaLinkedinIn className="text-2xl" />
-                      <FaInstagram className="text-2xl" />
-                      <FaTelegramPlane className="text-2xl" />
+                      <a
+                        href="https://www.linkedin.com/company/limsa-2021/"
+                        className=""
+                      >
+                        <FaLinkedinIn className="text-2xl text-gray-500" />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/egoistfunny/"
+                        className=""
+                      >
+                        <FaInstagram className="text-2xl text-gray-500" />
+                      </a>
+                      <a href="https://t.me/egoistfy">
+                        <FaTelegramPlane className="text-2xl text-gray-500" />
+                      </a>
                     </div>
                   </div>
                 </li>

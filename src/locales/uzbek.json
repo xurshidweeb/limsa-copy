@@ -77,5 +77,38 @@
     "text2": "+998 (33) 258 73 58",
     "text3": "9:00 - 18:00 Dushanba - Shanba",
     "subtext": "© 2024 Limsa. Barcha huquqlar himoyalangan."
+  },
+  "pri": {
+    "title": "Bizning arzon saytlar siz uchun",
+    "page": {
+      "title": "LANDING PAGE",
+      "description": "Bir sahifali saytning boshqa nomi – Landing Page. Ushbu sahifa qulay bo‘lib, mijozga kerakli ma'lumotlarni taqdim etadi.",
+      "text1": "UZ domen",
+      "text2": "24/7 himoya",
+      "text3": "Muddati 3 kun",
+      "text4": "Sahifalar soni 1",
+      "subtext1": "Kelishish",
+      "subtext2": "Buyurtma"
+    },
+    "card": {
+      "title": "VIZITKA SAYT",
+      "description": "Bu internetdagi kompaniyaning 'vizitkasi' hisoblanadi. Ushbu sayt kompaniyaning xizmatlari yoki mahsulotlari bilan tanishtirish uchun yaratiladi.",
+      "text1": "UZ domen",
+      "text2": "24/7 himoya",
+      "text3": "Muddati 3-7 kun",
+      "text4": "Sahifalar soni 2-4",
+      "subtext1": "Kelishish",
+      "subtext2": "Buyurtma"
+    },
+    "exc": {
+      "title": "Eksklyuziv",
+      "description": "Bu sayt sizning buyurtmangiz asosida yaratiladi. Xohlagan turdagi saytni buyurtma berishingiz mumkin.",
+      "text1": "UZ domen",
+      "text2": "24/7 himoya",
+      "text3": "Tillar soni - Istalgan",
+      "text4": "Yuqori dizayn darajasi",
+      "subtext1": "Kelishish",
+      "subtext2": "Buyurtma"
+    }
   }
 }

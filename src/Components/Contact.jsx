@@ -34,7 +34,7 @@ function Contact() {
               <input type="text" required placeholder={t("contact.input1")} className=" w-full bg-[#363636] outline-none rounded-2xl p-3" />
               <div className=" w-full bg-[#363636] rounded-2xl p-3 focus:scale-102">
                 <span className="">+998</span>
-              <input type="tell" required placeholder="935138833" className="outline-none pl-2" />
+              <input type="tell" required placeholder="93 513 88 33" className="outline-none pl-2" />
               </div>
               <textarea name="" placeholder={t("contact.input2")} id="" className=" w-full bg-[#363636] outline-none rounded-2xl p-3 h-25"></textarea>
               <button className="bg-[#652AAE] border-2 border-[#652AAE] hover:bg-transparent py-1 px-9 rounded-2xl cursor-pointer">{t("contact.btn")}</button>
