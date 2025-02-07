@@ -36,5 +36,43 @@
     "card6": "Namangan ITS is a center of modern IT knowledge and skills! Get new opportunities at every step.",
     "card7": "ProPartnyor is the address of reliable and effective cooperation! We will work together for the success of your business.",
     "card8": "ZamonTour – experience a happy tourist experience with us! Your trip with us is guaranteed to be more pleasant."
+  },
+  "servic": {
+    "title1": "Why us? Why most people choose us?",
+    "title2": "Our Benefits",
+    "subtitle1": "Adaptive",
+    "subtitle2": "Admin",
+    "subtitle3": "Protection",
+    "subtitle4": "Monitoring 24/7",
+    "subtitle5": "Domain and Hosting",
+    "subtitle6": "Unique",
+    "text1": "The websites we create will be flexible. That is, they will have a tablet and mobile version. There will be no separate payment for this.",
+    "text2": "Your website will have a convenient and simple admin panel that will allow you to manage the site from within.",
+    "text3": "Our websites are protected by modern anti-virus and firewalls to resist spambots and attacks.",
+    "text4": "Your website is automatically monitored online 24 hours a day to keep it up and running.",
+    "text5": "Domain and hosting run around, forget about headaches. We have domain UZ and hosting free for 6 months (then $10/month)",
+    "text6": "The design of each site we create will be unique and different from other sites. One design is one site!"
+  },
+  "contact": {
+    "title": "Order a website for your business now, And get a small gift from us 10% off!",
+    "text": "Satisfying every customer is our highest goal - LIMSA",
+    "subtitle": "Pages",
+    "home": "Home",
+    "services": "Our services",
+    "title1": "Leave your details",
+    "input1": "Your Name",
+    "input2": "Your Name",
+    "btn":"Send"
+  },
+  "footer": {
+    "title": "Contacts",
+    "subtitle1": "Address",
+    "subtitle2": "Phone Number",
+    "subtitle3": "Working hours",
+    "subtitle4": "Social networks",
+    "text1": "Tashkent city Yunusabad district",
+    "text2": "+998 (33) 258 73 58",
+    "text3": "9:00 - 18:00 Monday-Saturday",
+    "subtext": "© 2024 Limsa. All rights reserved."
   }
 }

@@ -125,7 +125,7 @@ function Header() {
             </NavLink>
             <NavLink
               activeclassName="active"
-              className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
+              className="border-2  w-60 py-1 text-center border-transparent rounded-3xl"
               to="/prices"
             >
               {t("header.prices")}

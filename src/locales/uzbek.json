@@ -26,17 +26,44 @@
     "fast3": "MOBIL ILOVALAR",
     "fast4": "VEB-SAYT YARATISH XIZMATI"
   },
-  
-    "cards": {
-      "card1": "Ataev Bahodir Build - sifatli qurilish va ta'mirlash xizmatlari! Bizni tanlang, orzuyingizdagi uyni yarating.",
-      "card2": "AutoZoomRental - qulay va ishonchli avtomobil ijarasi! Safaringizni bizning mashinalar bilan yanada yoqimli qiling.",
-      "card3": "IT Time Academy - zamonaviy IT bilimlar maskani! Kelajak kasblarini biz bilan o‘rganing.",
-      "card4": "HomeKit – zamonaviy va qulay aqlli uy echimlari! Uyingiz xavfsizligi va qulayligini biz bilan ta’minlang.",
-      "card5": "UzLoyal - ishonchli va qulay sodiqlik tizimi! Mijozlaringizni rag‘batlantirishning eng samarali usuli.",
-      "card6": "Namangan ITS - zamonaviy IT bilimlari va ko‘nikmalari markazi! Har qadamda yangi imkoniyatlarga ega bo‘ling.",
-      "card7": "ProPartnyor - ishonchli va samarali hamkorlik manzili! Biz biznesingiz muvaffaqiyati uchun birga ishlaymiz.",
-      "card8": "ZamonTour – biz bilan baxtli turistik tajribani his eting! Sayohatingiz biz bilan yanada yoqimli bo‘ladi."
-    }
-  
-  
+
+  "cards": {
+    "card1": "Ataev Bahodir Build - sifatli qurilish va ta'mirlash xizmatlari! Bizni tanlang, orzuyingizdagi uyni yarating.",
+    "card2": "AutoZoomRental - qulay va ishonchli avtomobil ijarasi! Safaringizni bizning mashinalar bilan yanada yoqimli qiling.",
+    "card3": "IT Time Academy - zamonaviy IT bilimlar maskani! Kelajak kasblarini biz bilan o‘rganing.",
+    "card4": "HomeKit – zamonaviy va qulay aqlli uy echimlari! Uyingiz xavfsizligi va qulayligini biz bilan ta’minlang.",
+    "card5": "UzLoyal - ishonchli va qulay sodiqlik tizimi! Mijozlaringizni rag‘batlantirishning eng samarali usuli.",
+    "card6": "Namangan ITS - zamonaviy IT bilimlari va ko‘nikmalari markazi! Har qadamda yangi imkoniyatlarga ega bo‘ling.",
+    "card7": "ProPartnyor - ishonchli va samarali hamkorlik manzili! Biz biznesingiz muvaffaqiyati uchun birga ishlaymiz.",
+    "card8": "ZamonTour – biz bilan baxtli turistik tajribani his eting! Sayohatingiz biz bilan yanada yoqimli bo‘ladi."
+  },
+  "servic": {
+    "title1": "Nega aynan biz? Nega ko'pchik odamlar bizni tanlashadi?",
+    "title2": "Bizning afzalliklarimiz",
+    "subtitle1": "Moslashuvchan",
+    "subtitle2": "Admin panel",
+    "subtitle3": "Himoya",
+    "subtitle4": "Monitoring 24/7",
+    "subtitle5": "Domen va Xosting",
+    "subtitle6": "Unikal",
+
+    "text1": "Biz yaratadigan saytlar moslashuvchan bo'ladi. Ya'ni, ular planshet va mobil versiyalarga ega bo'ladi. Buning uchun alohida to'lov talab qilinmaydi.",
+    "text2": "Saytingizda qulay va oddiy admin paneli bo'ladi, bu esa saytni ichkaridan boshqarishga imkon beradi.",
+    "text3": "Bizning saytlarimiz zamonaviy antiviruslar va firewall-lar bilan himoyalangan, shuning uchun ular spam botlar va hujumlardan himoyalangan.",
+    "text4": "Saytingiz avtomatik ravishda 24 soat davomida onlayn kuzatiladi, uning ishlashini ta'minlash uchun.",
+    "text5": "Domen va hostingni unuting, bosh og'rig'ini biz olib tashlaymiz. Bizda domen UZ va hosting 6 oyga bepul (keyin $10/oy).",
+    "text6": "Har bir saytning dizayni o'ziga xos bo'ladi va boshqa saytlardan farq qiladi. Bir dizayn - bir sayt!"
+  },
+
+  "contact": {
+    "title": "Biznesingiz uchun veb-sayt buyurtma qiling va bizdan kichik sovg‘a - 10% chegirma oling!",
+    "text": "Har bir mijozni qoniqtirish bizning eng yuqori maqsadimiz - LIMSA",
+    "subtitle": "Sahifalar",
+    "home": "Bosh sahifa",
+    "services": "Bizning xizmatlar",
+    "title1": "Ma’lumotlaringizni qoldiring",
+    "input1": "Ismingiz",
+    "input2": "Telefon raqamingiz",
+    "btn": "Yuborish"
+  }
 }
