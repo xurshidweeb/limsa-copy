@@ -65,5 +65,17 @@
     "input1": "Ismingiz",
     "input2": "Telefon raqamingiz",
     "btn": "Yuborish"
+  },
+
+  "footer": {
+    "title": "Kontaktlar",
+    "subtitle1": "Manzil",
+    "subtitle2": "Telefon raqami",
+    "subtitle3": "Ish vaqti",
+    "subtitle4": "Ijtimoiy tarmoqlar",
+    "text1": "Toshkent shahri, Yunusobod tumani",
+    "text2": "+998 (33) 258 73 58",
+    "text3": "9:00 - 18:00 Dushanba - Shanba",
+    "subtext": "© 2024 Limsa. Barcha huquqlar himoyalangan."
   }
 }
