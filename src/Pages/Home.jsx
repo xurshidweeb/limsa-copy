@@ -34,7 +34,7 @@ function Home() {
       </div>
       <div className="faq bg-[#161616] py-30">
         <div className="flex justify-between items-center container px-4 max-[1216px]:flex-col max-[1216px]:text-center ">
-          <div className="flex w-[600px] max-[600px]:w-[400px] max-[400px]:w-[300px]  max-[650px]:flex-col max-[650px]:items-center  gap-8">
+          <div className="flex w-[600px] max-[500px]:hidden max-[600px]:w-[400px] max-[400px]:w-[300px]  max-[650px]:flex-col max-[650px]:items-center  gap-8">
             <img
               src={img1}
               alt=""
