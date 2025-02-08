@@ -24,7 +24,7 @@ function Work() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 text-white">
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.ataevbahodirbuild.uz/" className="font-bold ">
                 ataevbahodirbuild.uz
               </a>
               <img
@@ -35,7 +35,7 @@ function Work() {
               <p className="pt-5">{t("cards.card1")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.autozoomrental.com/" className="font-bold ">
                 avtozoomrental.com
               </a>
               <img
@@ -46,7 +46,7 @@ function Work() {
               <p className="pt-5">{t("cards.card2")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.it-time-academy.uz/" className="font-bold ">
                 it-time-academy.uz
               </a>
               <img
@@ -57,7 +57,7 @@ function Work() {
               <p className="pt-5">{t("cards.card3")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.homekit.uz/" className="font-bold ">
                 homekit.uz
               </a>
               <img
@@ -68,7 +68,7 @@ function Work() {
               <p className="pt-5">{t("cards.card4")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.uzloyal.uz/" className="font-bold ">
                 uzroyal.uz
               </a>
               <img
@@ -79,7 +79,7 @@ function Work() {
               <p className="pt-5">{t("cards.card5")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://www.namanganoits.uz/" className="font-bold ">
                 namgaoits.uz
               </a>
               <img
@@ -90,7 +90,7 @@ function Work() {
               <p className="pt-5">{t("cards.card6")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://propartnyor.uz/" className="font-bold ">
                 propartnyor.uz
               </a>
               <img
@@ -101,7 +101,7 @@ function Work() {
               <p className="pt-5">{t("cards.card7")}</p>
             </div>
             <div className="border-b pb-5 s">
-              <a href="#" className="font-bold ">
+              <a href="https://zamontour.uz/" className="font-bold ">
                 ZamonTour.uz
               </a>
               <img
