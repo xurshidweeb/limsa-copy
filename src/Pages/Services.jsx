@@ -41,7 +41,7 @@ function Services() {
             <div className="flex gap-5 hover:scale-103 bg-[#0c0b0b] p-8 rounded-3xl max-[1024px]:flex-col">
               <div className="flex flex-col max-[1024px]:flex-row justify-between items-center">
                 <GrUserAdmin className="text-5xl text-white" />
-                <p className="text-white text-4xl font-bold">1</p>
+                <p className="text-white text-4xl font-bold">2</p>
               </div>
               <div className="">
                 <h3 className="text-white text-2xl font-medium">
@@ -53,7 +53,7 @@ function Services() {
             <div className="flex gap-5 hover:scale-103 bg-[#0c0b0b] p-8 rounded-3xl max-[1024px]:flex-col">
               <div className="flex flex-col max-[1024px]:flex-row justify-between items-center">
                 <MdOutlineSecurity className="text-5xl text-white" />
-                <p className="text-white text-4xl font-bold">1</p>
+                <p className="text-white text-4xl font-bold">3</p>
               </div>
               <div className="">
                 <h3 className="text-white text-2xl font-medium">
@@ -65,7 +65,7 @@ function Services() {
             <div className="flex gap-5 hover:scale-103 bg-[#0c0b0b] p-8 rounded-3xl max-[1024px]:flex-col">
               <div className="flex flex-col max-[1024px]:flex-row justify-between items-center">
                 <FaHeadset className="text-5xl text-white" />
-                <p className="text-white text-4xl font-bold">1</p>
+                <p className="text-white text-4xl font-bold">4</p>
               </div>
               <div className="">
                 <h3 className="text-white text-2xl font-medium">
@@ -77,7 +77,7 @@ function Services() {
             <div className="flex gap-5 hover:scale-103 bg-[#0c0b0b] p-8 rounded-3xl max-[1024px]:flex-col">
               <div className="flex flex-col max-[1024px]:flex-row justify-between items-center">
                 <SiBisecthosting className="text-5xl text-white" />
-                <p className="text-white text-4xl font-bold">1</p>
+                <p className="text-white text-4xl font-bold">5</p>
               </div>
               <div className="">
                 <h3 className="text-white text-2xl font-medium">
@@ -89,7 +89,7 @@ function Services() {
             <div className="flex gap-5 hover:scale-103 bg-[#0c0b0b] p-8 rounded-3xl max-[1024px]:flex-col">
               <div className="flex flex-col max-[1024px]:flex-row justify-between items-center">
                 <CiGlobe className="text-5xl text-white" />
-                <p className="text-white text-4xl font-bold">1</p>
+                <p className="text-white text-4xl font-bold">6</p>
               </div>
               <div className="">
                 <h3 className="text-white text-2xl font-medium">
