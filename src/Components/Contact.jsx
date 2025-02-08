@@ -10,10 +10,11 @@ function Contact() {
   };
   return (
     <div
-      className="h-auto bg-cover bg-center py-32"
+    id="behavior"
+      className="h-auto bg-cover bg-center pt-40 pb-30"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="container px-4">
+      <div  className="container px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="">
             <h2 className="text-4xl font-bold text-white pb-6 max-[768px]:text-center max-[768px]:text-2xl">{t("contact.title")}</h2>

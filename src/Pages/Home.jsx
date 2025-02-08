@@ -23,7 +23,7 @@ function Home() {
             </h2>
             <p className=" mb-4 max-[750px]:text-sm">{t("home.text")}</p>
             <a
-              href="#contact"
+              href="#behavior"
               className="max-[750px]:text-sm text-xl  px-4 py-1 bg-[#6C2DBA] border-2 border-[#6C2DBA] hover:bg-transparent rounded-md"
             >
               {t("home.btn")}
