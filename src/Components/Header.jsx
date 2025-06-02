@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import logo from "../assets/limsa-logo.png";
-import { TiThMenu } from "react-icons/ti";
-import { useTranslation } from "react-i18next";
+import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import logo from '../assets/logo.png'
+import { TiThMenu } from 'react-icons/ti'
+import { useTranslation } from 'react-i18next'
 
 function Header() {
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(false)
   const toggleModal = () => {
-    setModal(!modal);
-  };
-  const { t, i18n } = useTranslation();
+    setModal(!modal)
+  }
+  const { t, i18n } = useTranslation()
   const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
+    i18n.changeLanguage(lang)
+  }
 
   // Handle scroll
 
@@ -20,21 +20,21 @@ function Header() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setIsScrolled(true);
+        setIsScrolled(true)
       } else {
-        setIsScrolled(false);
+        setIsScrolled(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <div>
       <div
         className={`${
-          scrolled ? " from-[#131914] to-[#191e25] shadow-2xl" : " from-[#262743] to-[#121212]"
+          scrolled ? ' from-[#131914] to-[#191e25] shadow-2xl' : ''
         } fixed w-full bg-gradient-to-r px-5 text-white z-50 `}
       >
         <div className=" container py-5 flex justify-between items-center">
@@ -48,29 +48,28 @@ function Header() {
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/"
               >
-                
-                {t("header.home")}
+                {t('header.home')}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/services"
               >
-                {t("header.services")}
+                {t('header.services')}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/works"
               >
-                {t("header.work")}
+                {t('header.work')}
               </NavLink>
               <NavLink
                 activeclassName="active"
                 className="border-b-2 px-4 border-transparent rounded-xl  "
                 to="/prices"
               >
-                {t("header.prices")}
+                {t('header.prices')}
               </NavLink>
             </nav>
             <select
@@ -91,8 +90,8 @@ function Header() {
             </select>
           </div>
 
-          <button className=" max-[500px]:hidden px-4 py-2 border-2 cursor-pointer border-[#6C2DBA] rounded-xl bg-[#6C2DBA] hover:bg-transparent text-white  ">
-            +998332221123
+          <button className=" max-[500px]:hidden px-4 py-2 border-2 cursor-pointer border-[#6C2DBA] rounded-xl hover:bg-[#6C2DBA] bg-transparent text-white  ">
+            +998 (33) 258 73 58
           </button>
           <TiThMenu
             onClick={toggleModal}
@@ -101,42 +100,42 @@ function Header() {
         </div>
 
         {modal ? (
-          <nav className="flex flex-col items-center pb-5 mx-auto gap-8 mr-5 text-white">
+          <nav className="flex flex-col bg-black items-center pb-5 mx-auto gap-8 mr-5 text-white">
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/"
             >
-              {t("header.home")}
+              {t('header.home')}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/services"
             >
-              {t("header.services")}
+              {t('header.services')}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl  "
               to="/works"
             >
-              {t("header.work")}
+              {t('header.work')}
             </NavLink>
             <NavLink
               activeclassName="active"
               className="border-2  w-60 py-1 text-center border-transparent rounded-3xl"
               to="/prices"
             >
-              {t("header.prices")}
+              {t('header.prices')}
             </NavLink>
           </nav>
         ) : (
-          ""
+          ''
         )}
       </div>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

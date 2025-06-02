@@ -7,7 +7,7 @@ import { FaShareAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
-import logo from "../assets/footer-logo.png";
+import logo from "../assets/logo.png";
 
 function Footer() {
   const { t, i18n } = useTranslation();
